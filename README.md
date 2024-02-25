@@ -136,7 +136,7 @@ Note: Anything skipped will be marked as pending.
 ```
 
 ### skiptest.js
-```java
+```c
   Mathematical Operations - Skip
     ✔ Addition of two numbers
     - Subtraction of two numbers
@@ -171,9 +171,10 @@ Mocha Reporters are mostly Terminal based
 * SPEC - This is the default reporter. The "spec" reporter outputs a hierarchical view according to test cases
 
 ```bash
-mocha-js-framework-TAU $ npx mocha test/06-reporters.js --reporter spec
+npx mocha test/06-reporters.js --reporter spec
+```
 
-
+```bash
   Reporting Tests
     ✔ test 1
     1) test 2
@@ -202,6 +203,10 @@ mocha-js-framework-TAU $
 
 
 * DOT MATRIX - The dot matrix reporter is a series of characters which represent the test cases. Failures are highlighted in red exclamation marks (!), pending tests with a blue comma (,), and slow tests as yellow.
+
+```bash
+npx mocha test/06-reporters.js --reporter dot
+```
 
 ```bash
 mocha-js-framework-TAU $ npx mocha test/06-reporters.js --reporter dot
@@ -233,6 +238,10 @@ mocha-js-framework-TAU $
 NYAN, TAP, Landing Strip, List, Progress, JSON, JSON Stream, Min, DOC
 
 ```bash
+npx mocha --list-reporters
+```
+
+```bash
 mocha-js-framework-TAU $ npx mocha --list-reporters
 
     doc         - HTML documentation
@@ -255,6 +264,10 @@ mocha-js-framework-TAU $
 ---
 ---
 
+
+```bash
+npx mocha test/06-reporters.js --reporter nyan
+```
 
 ```bash
 mocha-js-framework-TAU $ npx mocha test/06-reporters.js --reporter nyan
@@ -287,6 +300,10 @@ mocha-js-framework-TAU $
 
 ---
 ---
+
+```bash
+npx mocha test/06-reporters.js --reporter json
+```
 
 ```bash
 mocha-js-framework-TAU $ npx mocha test/06-reporters.js --reporter json
