@@ -1,0 +1,22 @@
+{
+  "name": "mocha-js-framework-tau",
+  "version": "1.0.0",
+  "description": "Mocha Practice",
+  "main": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshk627/mocha-js-framework-TAU.git"
+  },
+  "author": "ganeshk627",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshk627/mocha-js-framework-TAU/issues"
+  },
+  "homepage": "https://github.com/ganeshk627/mocha-js-framework-TAU#readme",
+  "devDependencies": {
+    "mocha": "^10.3.0"
+  }
+}
